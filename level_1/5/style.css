@@ -1,0 +1,33 @@
+section {
+    border: 2px dashed #ccc;
+    padding: 15px 15px 0;
+    width: 260px;
+}
+aside {
+    width: 120px;
+}
+aside {
+    font-style: italic;
+    width: 120px;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+p {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 15px;
+}
+aside p {
+    font-size: 10px;
+    margin: 0;
+}
+a {
+    color: #a1805c;
+    text-decoration: none;
+}
+h3 {
+    color: #848990;
+    font: bold 16px/20px Tahoma, Arial, sans-serif;
+    margin: 0 0 15px;
+}

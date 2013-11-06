@@ -1,0 +1,25 @@
+body {
+    color: #4b4648;
+    font-family: tahoma, arial, sans-serif;
+    font-size: 14px;
+}
+h1 {
+    color: #6d9fac;
+    font-size: 22px;
+    text-align: center;
+}
+h2 {
+    color: #999;
+    font: italic 18px/24px Georgia, serif;
+    text-align: center;
+}
+.content {
+    border: 1px solid #cac3c6;
+    margin: 0 auto;
+    padding: 20px;
+    width: 260px;
+}
+.content.home {
+  border: none;
+}
+

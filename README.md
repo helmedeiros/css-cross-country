@@ -16,3 +16,6 @@ Code School - Learn the fundamentals &amp; foundational elements of CSS with CSS
 
 #### Style Specificity
 1. Remove the non-external styles found on the HTML page so that !important is no longer needed to set the <header> background in style.css.
+
+#### Floats
+1. Float the <aside> to the right and add 10px of margin to its left and bottom sides.
