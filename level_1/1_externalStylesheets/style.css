@@ -9,6 +9,9 @@ body {
     padding: 20px;
     width: 260px;
 }
+.content.home {
+    border: none;
+}
 h1 {
     color: #6d9fac;
     font-size: 22px;
