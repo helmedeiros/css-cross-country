@@ -19,3 +19,6 @@ Code School - Learn the fundamentals &amp; foundational elements of CSS with CSS
 
 #### Floats
 1. Float the <aside> to the right and add 10px of margin to its left and bottom sides.
+
+#### Columns
+1. Now let's make the <article> a column width the same width as the <aside> column and float it left.
