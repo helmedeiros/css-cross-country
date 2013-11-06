@@ -22,3 +22,12 @@ Float the <aside> to the right and add 10px of margin to its left and bottom sid
 
 #### Columns
 Now let's make the <article> a column width the same width as the <aside> column and float it left.
+
+
+### Level 2 - Clear Carving
+
+#### Clearfix
+#### Nested Selectors
+#### Inherited Styles
+#### Specificity
+#### Removing Id Selectors
