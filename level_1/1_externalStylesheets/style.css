@@ -14,4 +14,7 @@ h1 {
     font-size: 22px;
     text-align: center;
 }
-
+#slogan{
+    text-align: center;
+    font-style: italic;  
+}
