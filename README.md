@@ -8,3 +8,4 @@ Code School - Learn the fundamentals &amp; foundational elements of CSS with CSS
 #### External Stylesheets
 1. Refactor the <head> tag so that all CSS is instead found on an external stylesheet;
 2. Select the slogan only by its ID attribute, then center the text and make it italic;
+3. Add a declaration that selects the <section> via both class attributes, removing the border when both are present;
