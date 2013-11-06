@@ -13,3 +13,6 @@ Code School - Learn the fundamentals &amp; foundational elements of CSS with CSS
 
 #### Compound Selector
 1. Add a declaration that selects the <section> via both class attributes, removing the border when both are present;
+
+#### Style Specificity
+1. Remove the non-external styles found on the HTML page so that !important is no longer needed to set the <header> background in style.css.
