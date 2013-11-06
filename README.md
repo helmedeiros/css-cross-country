@@ -6,4 +6,5 @@ Code School - Learn the fundamentals &amp; foundational elements of CSS with CSS
 ### Level 1
 
 #### External Stylesheets
-1. Refactor the <head> tag so that all CSS is instead found on an external stylesheet.
+1. Refactor the <head> tag so that all CSS is instead found on an external stylesheet;
+2. Select the slogan only by its ID attribute, then center the text and make it italic;
