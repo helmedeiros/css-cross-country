@@ -115,4 +115,7 @@ Use a nested selector to make paragraphs only within asides `italic`.
 For `anchor` tags within `aside paragraphs`, override the inherited `italics` with a `normal` font-style.
 
 #### Specificity
+##### Challenge
+Refactor the CSS declarations for `.active a` and `.copyright` so that the `!important` rule can be removed.
+
 #### Removing Id Selectors
