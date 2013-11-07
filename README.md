@@ -119,3 +119,5 @@ For `anchor` tags within `aside paragraphs`, override the inherited `italics` wi
 Refactor the CSS declarations for `.active a` and `.copyright` so that the `!important` rule can be removed.
 
 #### Removing Id Selectors
+##### Challenge
+Refactor `#home` scoped anchor tags to be scoped to the `.home` class instead, so that the `.button` declaration no longer needs reference to the home class or ID.
