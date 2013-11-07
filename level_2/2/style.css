@@ -20,11 +20,11 @@ nav li a {
 aside {
     float: right;
     width: 120px;
-    font-style: italic;
 }
 aside p {
     font-size: 10px;
     margin: 0;
+    font-style: italic;
 }
 article {
     float: left;
@@ -41,6 +41,9 @@ p {
     font-size: 14px;
     line-height: 19px;
     margin: 0 0 15px;
+}
+p {
+  font-style: normal;
 }
 h3 {
     color: #848990;
