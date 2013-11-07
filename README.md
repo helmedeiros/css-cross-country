@@ -26,7 +26,53 @@ Now let's make the <article> a column width the same width as the <aside> column
 
 ### Level 2 - Clear Carving
 
+Sometimes clearing is necessary. Floated items can be taller than non-floated content or even All children are floating. For all this cases we can apply 3 ways of clearing. They are:
+1.Clear with a subsequent element: Requires sequence to stay intact - breaks if things move; Background / border do not extend. 
+ex.: 
+    <div>
+     <img src="ski.jpg" alt="Skiing!" />
+     <p>To successfully ski, simply do not fall.</p>
+    </div> 
+    <div class="intro">
+      <p>Whee!</p>
+    </div>
+
+    img {
+      float: left;
+    }
+    .intro {
+      clear: both;
+    }
+
+2.Manual clearing: Requires an empty element; Might not be necessary later. 
+ex.: 
+    <div>
+     <img src="ski.jpg" alt="Skiing!" />
+     <p>To successfully ski, simply do not fall.</p>
+     <div class="clear"></div>
+    </div>
+
+    .clear {
+     clear: both;
+    }
+
+3.The clearfix. 
+ex.:
+    <div class="group">
+     <img src="ski.jpg" alt="Skiing!" />
+     <p>To successfully ski, simply do not fall.</p>
+    </div>
+
+    .group:before, .group:after { content: "";
+      display: table; }
+    .group :after {
+      clear: both; }
+    .group {
+      zoom: 1; /* IE6&7 */ }
+
 #### Clearfix
+Rather than using <div class="clear"></div> to clear floats, refactor this page to use the clearfix method via .group.
+
 #### Nested Selectors
 #### Inherited Styles
 #### Specificity
