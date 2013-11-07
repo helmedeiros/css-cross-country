@@ -111,5 +111,8 @@ By default nested elements automatically inherit parent styles, but sometimes we
 Use a nested selector to make paragraphs only within asides `italic`.
 
 #### Inherited Styles
+##### Challenge
+For `anchor` tags within `aside paragraphs`, override the inherited `italics` with a `normal` font-style.
+
 #### Specificity
 #### Removing Id Selectors
