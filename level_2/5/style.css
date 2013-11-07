@@ -67,10 +67,10 @@ h3 {
 .group {
     zoom: 1;
 }
-#home a {
+.home a {
     color: #c09e79;
 }
-#home article .button {
+article .button {
     color: #fff;
 }
 .button:hover, .button:focus {
