@@ -61,6 +61,8 @@ a:hover, a:focus {
 }
 .button {
     float: right;
+    position: relative;
+    top: 3px;
 }
 .button, .more {
     background: #7ab2c1;
