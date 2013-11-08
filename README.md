@@ -121,3 +121,28 @@ Refactor the CSS declarations for `.active a` and `.copyright` so that the `!imp
 #### Removing Id Selectors
 ##### Challenge
 Refactor `#home` scoped anchor tags to be scoped to the `.home` class instead, so that the `.button` declaration no longer needs reference to the home class or ID.
+
+### Level 3 - Box Bindings
+
+#### Box Model
+When adapting a layout is important to have in mind the box model. Each DOM element has a imaginary diagram with 4 areas (content area, padding area, border area and margin area). 
+
+Total calculated box width = content width + padding width + border width;
+
+ex.: 100px content width + 15px padding width + 10px border width = 125px box width
+```css
+    .downhill {
+        border: 5px solid #fff;
+        padding-left: 10px;
+        padding-right: 5px;
+        width: 100px;
+    }
+```
+##### Challenge
+The `<figure>` in our page footer should have a total box `width` of `120px`. Add an appropriate content `width` given its base `padding` and `border`.
+
+#### Box Model Overflow
+When adapting a design to its content is important to have in mind that a content could request to be overflow. The css has the `overflow` property that could be set as `visible` / `auto` / `hidden` / `scroll`. the overflow is by default applied for both axis, but is possible to restrict it to each axi using `overflow-x` or `overflow-y`.
+
+##### Challenge
+Add an appropriate content height to give the `<figure>` a height of `120px`, hide any `overflow` on the `x-axis`, and add a `scroll bar` on the `y-axis` if necessary. Hint: Use `overflow-x` and `overflow-y` to target the different axes.
