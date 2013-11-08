@@ -1,0 +1,86 @@
+body {
+    color: #706c6e;
+    font-family: Tahoma, Arial, sans-serif;
+}
+nav {
+    background: #e0e2e6;
+    font-size: 12px;
+    margin: 0 0 10px;
+    padding: 5px 15px;
+}
+nav li {
+    display: inline;
+    margin: 0 10px 0 0;
+}
+nav li a {
+    font-weight: bold;
+}
+a {
+    color: #a1805c;
+    text-decoration: none;
+}
+ol, ul {
+    list-style: none;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+aside p {
+    font-size: 12px;
+    margin: 0 0 15px;
+}
+.group, ul.store {
+    zoom: 1;
+}
+.group:before, ul.store:before, .group:after, ul.store:after {
+    content:'';
+    display: table;
+}
+.group:after, ul.store:after {
+    clear: both;
+}
+.group:before, ul.store:before, .group:after, ul.store:after {
+    content:'';
+    display: table;
+}
+a:hover, a:focus {
+    color: #c29f79;
+}
+.button:hover, .button:focus {
+    background: #6da3b2;
+}
+.button {
+    float: right;
+    position: relative;
+    top: 3px;
+}
+.button, .more {
+    background: #7ab2c1;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 15px;
+    padding: 5px 10px;
+    text-align: center;
+}
+h3 {
+    font-size: 28px;
+    line-height: 28px;
+}
+h3 {
+    color: #848990;
+    font: bold 16px/20px Tahoma, Arial, sans-serif;
+    margin: 0 0 15px;
+}
