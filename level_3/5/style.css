@@ -18,9 +18,10 @@ footer {
     font-size: 12px;
     margin: 0;
     text-align: center;
-}
-.newsletter a {
+     z-index: 50;
+}.newsletter a {
     color: #7ab2c1;
+
 }
 p {
     font-size: 14px;
@@ -42,6 +43,9 @@ footer figure {
     overflow-y: auto;
     padding: 15px;
     width: 88px;
+     position: absolute;
+  right: 0;
+  top: 0;
 }
 figure {
     display: block;
