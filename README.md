@@ -140,3 +140,6 @@ ex.: 100px content width + 15px padding width + 10px border width = 125px box wi
 ```
 ##### Challenge
 The `<figure>` in our page footer should have a total box `width` of `120px`. Add an appropriate content `width` given its base `padding` and `border`.
+
+#### Box Model Overflow
+Add an appropriate content height to give the `<figure>` a height of `120px`, hide any `overflow` on the `x-axis`, and add a `scroll bar` on the `y-axis` if necessary. Hint: Use `overflow-x` and `overflow-y` to target the different axes.
