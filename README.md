@@ -159,3 +159,8 @@ Anchors with a `.button` class are floated to the right of our `<h3>`, but we'd 
 #### Scoping Position
 ##### Challenge
 We've attempted to position the newsletter paragraph to stick to the bottom of the footer, but it's sticking to the window instead. Add the necessary `positioning` to `<footer>` to scope it.
+
+#### Absolute Positioning
+##### Challenge
+Use `absolute positioning` to place the `<figure>` in the upper right corner of the footer. Set a `z-index` on `.newsletter` to keep it above `<figure>` after it's positioned.
+
