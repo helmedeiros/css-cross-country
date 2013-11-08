@@ -156,3 +156,6 @@ After set as relative, the renders occours in the normal flow, then shifted via 
 ##### Challenge
 Anchors with a `.button` class are floated to the right of our `<h3>`, but we'd like them to be centered vertically. Use `relative positioning` to move the button down `3px`.
 
+#### Scoping Position
+##### Challenge
+We've attempted to position the newsletter paragraph to stick to the bottom of the footer, but it's sticking to the window instead. Add the necessary `positioning` to `<footer>` to scope it.
