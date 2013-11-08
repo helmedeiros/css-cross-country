@@ -15,6 +15,9 @@ footer figure {
     border: 1px solid #c5c9cf;
     padding: 15px;
     width: 88px;
+    height: 88px;
+    overflow-x: hidden;
+    overflow-y: auto; 
 }
 footer figure img {
     border: 5px solid #fff;
