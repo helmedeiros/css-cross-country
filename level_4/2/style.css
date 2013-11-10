@@ -5,7 +5,7 @@ body {
 body {
     line-height: 1;
 }
-header {
+header, article {
     margin: 0 0 20px 0;
 }
 header {
@@ -22,9 +22,6 @@ h2 {
     color: #999;
     font: italic 18px/24px Georgia, serif;
     text-align: center;
-}
-article {
-    margin: 0 0 20px 0;
 }
 article h1 {
     text-align: left;
