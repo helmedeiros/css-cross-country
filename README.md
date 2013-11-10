@@ -208,6 +208,9 @@ In IT world DRY is an acronym for Don't Repeat Yourself. when we're talking abou
 Refactor any repeated declarations and apply them to a single parent container
 
 #### Selector Combination
+##### Challenge
+Combine selectors that share the same properties into a comma-delimited list.
+
 #### Selector Combination II
 #### Shorthand
 #### Inline
