@@ -2,9 +2,11 @@ body {
 	color: #706c6e;
 	font-family: Tahoma,Arial,sans-serif;
 }
+header, article {
+	padding: 20px;
+}
 header {
 	background: #ccc;
-	padding: 20px;
 	font-size: 16px;
 }
 h1 {
@@ -20,7 +22,6 @@ h2 {
 }
 article {
 	font-size: 14px;
-	padding: 20px;
 	margin-bottom: 20px
 }
 p {
