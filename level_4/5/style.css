@@ -27,3 +27,8 @@ h1 {
     margin: 0 0 10px;
     text-align: center;
 }
+nav li {
+  display: inline;
+  margin: 0 5px 0 5px;
+}
+
