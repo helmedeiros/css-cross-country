@@ -224,3 +224,5 @@ Refactor the paragraph properties to use shorthand syntax.
 Use `display: inline` to make the `nav` list items display horizontal with `right` and `left` margins of `5px`. Be sure to use the shorthand syntax for `margin`.
 
 #### Horizontal Centering
+##### Challenge
+Give the unordered list in `<nav>` a `width` of `250px` and `center` it `horizontally` within its parent container. Use shorthand syntax where appropriate.
