@@ -216,5 +216,8 @@ Combine selectors that share the same properties into a comma-delimited list.
 Combine selectors that share the same properties into a comma-delimited list, then override the comma-delimited definition with individual definitions.
 
 #### Shorthand
+##### Challenge
+Refactor the paragraph properties to use shorthand syntax.
+
 #### Inline
 #### Horizontal Centering

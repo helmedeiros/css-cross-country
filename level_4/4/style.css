@@ -1,0 +1,22 @@
+body {
+    color: #706c6e;
+    font-family: Tahoma, Arial, sans-serif;
+}
+h1 {
+    color: #7ab2c1;
+    font: bold 22px/28px Tahoma, Arial, sans-serif;
+    margin: 0 0 10px;
+    text-align: center;
+}
+article h1 {
+    text-align: left;
+}
+p {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    font-family: tahoma, arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
