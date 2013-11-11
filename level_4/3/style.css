@@ -1,0 +1,30 @@
+body {
+	color: #706c6e;
+	font-family: Tahoma,Arial,sans-serif;
+}
+header {
+	background: #ccc;
+	padding: 20px;
+	font-size: 16px;
+}
+h1 {
+	color: #7ab2c1;
+	font: bold 22px/28px Tahoma,Arial,sans-serif;
+	text-align: center;
+	margin: 0 0 10px;
+}
+h2 {
+	color: #423e40;
+	font: italic 18px/24px Georgia,serif;
+	text-align: center;
+}
+article {
+	font-size: 14px;
+	padding: 20px;
+	margin-bottom: 20px
+}
+p {
+	font-size: 14px;
+	line-height: 19px;
+	margin: 0 0 15px;
+}

@@ -212,6 +212,9 @@ Refactor any repeated declarations and apply them to a single parent container
 Combine selectors that share the same properties into a comma-delimited list.
 
 #### Selector Combination II
+##### Challenge
+Combine selectors that share the same properties into a comma-delimited list, then override the comma-delimited definition with individual definitions.
+
 #### Shorthand
 #### Inline
 #### Horizontal Centering
