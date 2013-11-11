@@ -220,4 +220,7 @@ Combine selectors that share the same properties into a comma-delimited list, th
 Refactor the paragraph properties to use shorthand syntax.
 
 #### Inline
+##### Challenge
+Use `display: inline` to make the `nav` list items display horizontal with `right` and `left` margins of `5px`. Be sure to use the shorthand syntax for `margin`.
+
 #### Horizontal Centering
