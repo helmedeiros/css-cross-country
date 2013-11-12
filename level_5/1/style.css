@@ -3,7 +3,7 @@ body {
     font-family: Tahoma, Arial, sans-serif;
 }
 header {
-    margin-top: 20px;
+    margin: 20px 0;
 }
 h1 {
     color: #7ab2c1;
@@ -31,6 +31,7 @@ p {
     margin: 0 0 15px;
 }
 aside {
+	margin: 20px 0;
     font-style: italic;
 }
 aside p {
