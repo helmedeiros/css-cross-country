@@ -16,17 +16,14 @@ h1 {
     margin: 0 0 10px;
     text-align: center;
 }
-p {
+p.history {
     background: #e0e2e6;
-    font-size: 15px;
-    line-height: 20px;
-    margin-bottom: 20px;
     min-height: 140px;
     width: 260px;
     padding: 10px;
 }
 p {
-    font-size: 14px;
-    line-height: 19px;
-    margin: 0 0 15px;
+	font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;    
 }
