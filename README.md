@@ -212,6 +212,17 @@ Refactor any repeated declarations and apply them to a single parent container
 Combine selectors that share the same properties into a comma-delimited list.
 
 #### Selector Combination II
+##### Challenge
+Combine selectors that share the same properties into a comma-delimited list, then override the comma-delimited definition with individual definitions.
+
 #### Shorthand
+##### Challenge
+Refactor the paragraph properties to use shorthand syntax.
+
 #### Inline
+##### Challenge
+Use `display: inline` to make the `nav` list items display horizontal with `right` and `left` margins of `5px`. Be sure to use the shorthand syntax for `margin`.
+
 #### Horizontal Centering
+##### Challenge
+Give the unordered list in `<nav>` a `width` of `250px` and `center` it `horizontally` within its parent container. Use shorthand syntax where appropriate.
