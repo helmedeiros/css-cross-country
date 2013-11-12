@@ -270,3 +270,7 @@ Collapsing margins will not occur when one or more block element has:
 
 ##### Challenge
 Add a `20px` bottom margin to `<header>`, `<article>`, and `<aside>` using the shorthand syntax. Remove any top margins and keep in mind that with `top` and `bottom` padding, the margins will no longer collapse.
+
+#### Despecify
+##### Challenge
+Refactor these declarations so that they aren't tied only to `section articles` and can apply to `paragraphs` and `h1s` site-wide.
