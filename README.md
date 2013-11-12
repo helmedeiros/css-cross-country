@@ -226,3 +226,43 @@ Use `display: inline` to make the `nav` list items display horizontal with `righ
 #### Horizontal Centering
 ##### Challenge
 Give the unordered list in `<nav>` a `width` of `250px` and `center` it `horizontally` within its parent container. Use shorthand syntax where appropriate.
+
+### Level 5 - CSS Safety
+
+#### Collapsing Margins
+Margin properties specify the width of the margin area of a box. In a page with 3 main areas (header, article and aside), where your layout requests a margin of 20px between them, you could end up with something like:
+```html
+  <header>
+  </header>
+  <article>
+  </article>
+  <aside>
+  </aside>
+```
+
+```css
+  article {
+    margin: 20px 0; 
+  }
+```
+Now think about a layout change, we want to remove the article, leaving header and aside with a 20px margin between them... it shouldn't work now? Is it? A proper way to do that will be think about them as complementary blocks with a first margin added to the second with a total of 20px... **BUT THIS IS WRONG - in most cases*.
+
+According to w3c spec, two adjoining margins will be collapse and the highest value of them will be the final margin between those blocks. For example, with the following style definition the margin between header and article should be 20px and between article and aside will be 30px.
+
+```css
+  header {
+    margin: 20px 0; 
+  }
+  article {
+    margin: 10px 0;
+  }
+  aside {
+    margin: 30px 0;
+  }
+```
+Collapsing margins will not occur when one or more block element has:
+1.Padding or border;
+2.Relative or absolute positioning, float left or right;
+
+##### Challenge
+Refactor the spacing between `<header>`, `<article>`, and `<aside>` so that elements will have a `20px` margin above and below, regardless of their order on the page. Account for collapsing margins and use shorthand syntax.
