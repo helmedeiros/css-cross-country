@@ -274,3 +274,7 @@ Add a `20px` bottom margin to `<header>`, `<article>`, and `<aside>` using the s
 #### Despecify
 ##### Challenge
 Refactor these declarations so that they aren't tied only to `section articles` and can apply to `paragraphs` and `h1s` site-wide.
+
+#### Reasonable Defaults
+##### Challenge 
+Oops, the `background`, `min-height`, `width`, and `padding` properties shouldn't apply to paragraphs other than `p.history`. Separately define styles that are specific to `p.history`, and leave styles that can be reused site-wide in the p declaration.
