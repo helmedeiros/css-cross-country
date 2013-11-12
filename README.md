@@ -260,9 +260,13 @@ According to w3c spec, two adjoining margins will be collapse and the highest va
     margin: 30px 0;
   }
 ```
+##### Challenge
+Refactor the spacing between `<header>`, `<article>`, and `<aside>` so that elements will have a `20px` margin above and below, regardless of their order on the page. Account for collapsing margins and use shorthand syntax.
+
+#### Non-Collapsing
 Collapsing margins will not occur when one or more block element has:
 1.Padding or border;
 2.Relative or absolute positioning, float left or right;
 
 ##### Challenge
-Refactor the spacing between `<header>`, `<article>`, and `<aside>` so that elements will have a `20px` margin above and below, regardless of their order on the page. Account for collapsing margins and use shorthand syntax.
+Add a `20px` bottom margin to `<header>`, `<article>`, and `<aside>` using the shorthand syntax. Remove any top margins and keep in mind that with `top` and `bottom` padding, the margins will no longer collapse.
