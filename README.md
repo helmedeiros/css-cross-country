@@ -307,3 +307,25 @@ In every layout you start is important to differ between layout or content image
 
 ##### Challenge
 Replace the product image incorrectly set as a background image in `<figure>` with an inline image. Use the same path and add an `alt` attribute to match the product name.
+
+#### Background Images
+For layout images, you should consider to use `background` some element instead of an `inline img`. This will give you security to manage it as needed. ex.:
+
+##### WORST FOR LAYOUT
+```html
+  <h1>Feel the rhythm, feel the rhyme, get on up, it’s bobsled time!</h1>
+  <img src="divider.jpg" alt="Divider" />
+```
+
+##### BEST FOR LAYOUT
+```html
+  <h1>Feel the rhythm, feel the rhyme, get on up, it’s bobsled time!</h1>
+```
+```css
+  h1 {
+    background: url(divider.jpg); margin-bottom: 10px; padding-bottom: 10px;
+  }
+```
+
+##### Challenge
+Refactor the inline image in `.more` to be a background image, placed in the `top right` of the `.more` button.
