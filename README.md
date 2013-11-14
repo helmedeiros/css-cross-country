@@ -278,3 +278,54 @@ Refactor these declarations so that they aren't tied only to `section articles` 
 #### Reasonable Defaults
 ##### Challenge 
 Oops, the `background`, `min-height`, `width`, and `padding` properties shouldn't apply to paragraphs other than `p.history`. Separately define styles that are specific to `p.history`, and leave styles that can be reused site-wide in the p declaration.
+
+### Level 5 - Image Issues
+#### Content Images
+In every layout you start is important to differ between layout or content image. Each of them has best practices to be used, for content images, you should consider to use `inline` image instead of `background` some element. This will give you freedom to repeat it properly, or change origem and values properly. ex.:
+
+##### WORST FOR CONTENT
+```html
+  <h4>Rental Products</h4>
+  <ul>
+    <li class="snowmobile"></li>
+  </ul>
+```
+```css
+  .snowmobile li {
+    background: url(snowmobile.jpg); height: 300px;
+    width: 400px;
+  }
+```
+
+##### BEST FOR CONTENT
+```html
+  <h4>Rental Products</h4>
+  <ul>
+    <li><img src="snowmobile.jpg" alt="Snowmobile" /></li>
+  </ul>
+```
+
+##### Challenge
+Replace the product image incorrectly set as a background image in `<figure>` with an inline image. Use the same path and add an `alt` attribute to match the product name.
+
+#### Background Images
+For layout images, you should consider to use `background` some element instead of an `inline img`. This will give you security to manage it as needed. ex.:
+
+##### WORST FOR LAYOUT
+```html
+  <h1>Feel the rhythm, feel the rhyme, get on up, it’s bobsled time!</h1>
+  <img src="divider.jpg" alt="Divider" />
+```
+
+##### BEST FOR LAYOUT
+```html
+  <h1>Feel the rhythm, feel the rhyme, get on up, it’s bobsled time!</h1>
+```
+```css
+  h1 {
+    background: url(divider.jpg); margin-bottom: 10px; padding-bottom: 10px;
+  }
+```
+
+##### Challenge
+Refactor the inline image in `.more` to be a background image, placed in the `top right` of the `.more` button.
