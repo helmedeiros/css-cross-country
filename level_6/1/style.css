@@ -11,10 +11,8 @@ h1 {
 article h1 {
     text-align: left;
 }
-img {
+figure {
     border: 2px solid #c5c9cf;
-    height: 150px;
-    width: 150px;
     margin-bottom: 15px;
 }
 p {
