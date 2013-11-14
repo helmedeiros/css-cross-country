@@ -38,12 +38,12 @@ a:hover, a:focus {
     text-align: center;
 }
 .more {
-    background-color: #c09d78;
     display: block;
     position: relative;
     padding: 0 50px;
 }
 .more {
+    background: #c09d78 right top url('arrow.png') no-repeat ;
     line-height: 40px;
     margin: 15px 0;
     padding: 0 50px;
