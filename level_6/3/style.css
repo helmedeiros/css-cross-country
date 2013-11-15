@@ -23,7 +23,8 @@ ul.store li {
 ul.store li img {
     display: block;
 }
-.store li img {
+.store li {
     height: 150px;
     width: 150px;
+    overflow: hidden;
 }
