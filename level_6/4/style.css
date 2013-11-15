@@ -1,0 +1,27 @@
+body {
+    color: #706c6e;
+    font-family: Tahoma, Arial, sans-serif;
+}
+h1 {
+    color: #848990;
+    font: bold 16px/20px tahoma, arial, sans-serif;
+    margin: 0 0 10px;
+    text-align: left;
+}
+.group, ul.store {
+    zoom: 1;
+}
+ol, ul {
+    list-style: none;
+}
+ul.store li {
+    border: 5px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin: 0 15px 15px 0;
+}
+.store li {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
