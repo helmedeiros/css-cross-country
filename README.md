@@ -392,3 +392,7 @@ To proportionaly crop image, you should choose one of the containers size to be 
 
 ##### Challenge
 Now our images aren't squished, but they don't use the container effectively. Set a `height` on the images to match the container and make sure the `width` scales proportionally automatically.
+
+#### Portrait Image Crop
+##### Challenge
+The new store images are portrait rather than landscape orientation. Swap the `<img>` `width` and `height` to better handle this type of proportion.
