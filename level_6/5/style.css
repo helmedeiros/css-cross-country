@@ -25,3 +25,7 @@ ul.store li {
     width: 150px;
     overflow: hidden;
 }
+.store li img {
+    height: auto;
+    width: 150px;
+}
