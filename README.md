@@ -329,3 +329,7 @@ For layout images, you should consider to use `background` some element instead 
 
 ##### Challenge
 Refactor the inline image in `.more` to be a background image, placed in the `top right` of the `.more` button.
+
+#### Image Crop
+##### Challenge
+Images are currently being non-proportionally resized via CSS. Apply the `height` and `width` to their parent list items instead, and hide any `overflow`.
