@@ -396,3 +396,53 @@ Now our images aren't squished, but they don't use the container effectively. Se
 #### Portrait Image Crop
 ##### Challenge
 The new store images are portrait rather than landscape orientation. Swap the `<img>` `width` and `height` to better handle this type of proportion.
+
+### Level 7 - Sprightly Slaloms
+
+#### Image Replacement
+Sometimes we need to replace by images some elements like logos, that normally come in replace to `a` elements. On those cases we have to proceed with some steps. 
+1. Add descriptive text to image-replaced elements;
+2. Add text-indent to hides the placeholder text;
+
+```html
+  <a href="#" class="logo">Sven's Snowshoe Emporium</a>
+```
+```css
+  .logo {
+    background: url(logo.png);
+    display: block;
+    height: 100px;
+    width: 200px;
+    text-ident: -9999px;
+  }
+```
+
+##### Challenge
+The anchor in `<h1>` is now replaced with a background image, but there's no fallback text. Add the logo's text to the HTML and remove it from view.
+
+#### Hover Sprite
+In a lot of cases we'll spend sometime working at transitions. To avoid tons of HTTP requests, also the need of preloading strategies, we could work with sprite images. For that:
+
+```html
+  <a href="#" class="logo">Sven's Snowshoe Emporium</a>
+```
+
+```css
+  .logo {
+     background: url(logo.png);
+     display: block;
+     height: 100px;
+     width: 200px;
+     text-indent: -9999px;
+   }
+  .logo:hover, .logo:focus {
+     background-position: 0 -100px;
+  }
+```
+
+##### Challenge
+Add the appropriate `background-position` shift to the `hover` state to make use of the new `logo2.png` sprite (see the images tab).
+
+#### Active Sprite
+##### Challenge
+We've updated our `logo3.png` sprite again to include a third state for `:active`. Add the necessary `background-position` to display this state.
