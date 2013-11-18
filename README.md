@@ -3,7 +3,7 @@ css-cross-country
 
 Code School - Learn the fundamentals &amp; foundational elements of CSS with CSS Cross-Country. Review all the web-styling necessities for front-end efficiency. 
 
-### Level 1
+### Level 1 - Frost-Proof Fundamentals
 
 #### External Stylesheets
 Refactor the `<head>` tag so that all CSS is instead found on an external stylesheet;
@@ -279,7 +279,7 @@ Refactor these declarations so that they aren't tied only to `section articles` 
 ##### Challenge 
 Oops, the `background`, `min-height`, `width`, and `padding` properties shouldn't apply to paragraphs other than `p.history`. Separately define styles that are specific to `p.history`, and leave styles that can be reused site-wide in the p declaration.
 
-### Level 5 - Image Issues
+### Level 6 - Image Issues
 #### Content Images
 In every layout you start is important to differ between layout or content image. Each of them has best practices to be used, for content images, you should consider to use `inline` image instead of `background` some element. This will give you freedom to repeat it properly, or change origem and values properly. ex.:
 
