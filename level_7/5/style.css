@@ -1,0 +1,49 @@
+body {
+    color: #706c6e;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.sidebar {
+    background: 0;
+    padding: 0;
+}
+nav {
+    background: #e0e2e6;
+    font-size: 12px;
+    margin: 0 0 10px;
+    padding: 5px 15px;
+}
+ol, ul {
+    list-style: none;
+}
+a {
+    color: #a1805c;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #c29f79;
+}
+.sidebar a {
+    display: block;
+    line-height: 40px;
+}
+.sidebar li {
+    display: block;
+    margin: 0 0 10px;
+}
+.sidebar li a {
+    font-size: 14px;
+    font-weight: normal;
+}
+.sidebar .featured, .sidebar .sales {
+    background: url(sidebar.png) no-repeat;
+    padding-left: 50px;
+}
+.sidebar .sales {
+    background-position: 0 -80px;
+}
+.sidebar .featured:hover, .sidebar .featured:focus {
+    background-position: 0 -40px;
+}
+.sidebar .sales:hover, .sidebar .sales:focus {
+    background-position: 0 -120px;
+}
