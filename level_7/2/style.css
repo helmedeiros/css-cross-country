@@ -27,3 +27,6 @@ a {
 .logo {
     margin: 0 auto 15px;
 }
+.logo:hover, .logo:focus {
+ 	background-position: 0 -75px; 
+}
