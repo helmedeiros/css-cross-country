@@ -446,3 +446,7 @@ Add the appropriate `background-position` shift to the `hover` state to make use
 #### Active Sprite
 ##### Challenge
 We've updated our `logo3.png` sprite again to include a third state for `:active`. Add the necessary `background-position` to display this state.
+
+#### Icon Sprite
+##### Challenge
+The featured and sale navigation items should have special icons. To start, add the `background image` to both and adjust the `position` for the sales icon (see the diagram on the images tab).
