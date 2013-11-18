@@ -442,3 +442,7 @@ In a lot of cases we'll spend sometime working at transitions. To avoid tons of 
 
 ##### Challenge
 Add the appropriate `background-position` shift to the `hover` state to make use of the new `logo2.png` sprite (see the images tab).
+
+#### Active Sprite
+##### Challenge
+We've updated our `logo3.png` sprite again to include a third state for `:active`. Add the necessary `background-position` to display this state.
