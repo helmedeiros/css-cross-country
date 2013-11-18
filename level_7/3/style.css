@@ -30,3 +30,6 @@ a {
 .logo:hover, .logo:focus {
     background-position: 0 -75px;
 }
+.logo:active {
+  background-position: 0 -150px;
+}
