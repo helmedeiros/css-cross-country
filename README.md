@@ -450,3 +450,7 @@ We've updated our `logo3.png` sprite again to include a third state for `:active
 #### Icon Sprite
 ##### Challenge
 The featured and sale navigation items should have special icons. To start, add the `background image` to both and adjust the `position` for the sales icon (see the diagram on the images tab).
+
+#### Icon Sprite Hover
+##### Challenge
+Now, add the approprite positioning shifts to the `hover` state of our navigation items.
