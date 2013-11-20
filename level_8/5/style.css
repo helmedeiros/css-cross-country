@@ -7,3 +7,7 @@ p {
 	line-height: 19px;
 	margin: 0 0 15px;
 }
+p:before {
+	content: '->';
+	margin-right: 5px;
+}
