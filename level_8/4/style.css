@@ -7,3 +7,6 @@ p {
     line-height: 19px;
     margin: 0 0 15px;
 }
+p:first-child:first-line{
+	font-weight: bold;
+};
