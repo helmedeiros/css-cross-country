@@ -504,3 +504,7 @@ Using a pseudo class, target the first instance of `paragraph` and change its te
 #### Pseudo Classes II
 ##### Challenge
 Using a pseudo class, add a `background-color` of `#c5c9cf` to odd list items inside `.hours`.
+
+#### Pseudo Classes III
+##### Challenge
+Instead of odd items, let's instead target every `4th` list item, starting with the `first`.
