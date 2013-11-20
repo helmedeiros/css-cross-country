@@ -29,6 +29,8 @@ a.store {
 }
 .store:before, .store:after {
     display: block;
+    position: absolute;
+    content: '';
 }
 .store:before {
     background: url(store-before.png);
