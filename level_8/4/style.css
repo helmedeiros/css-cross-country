@@ -1,0 +1,12 @@
+body {
+    color: #706c6e;
+    font-family: Tahoma, Arial, sans-serif;
+}
+p {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 15px;
+}
+p:first-child:first-line{
+	font-weight: bold;
+};

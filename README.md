@@ -454,3 +454,96 @@ The featured and sale navigation items should have special icons. To start, add 
 #### Icon Sprite Hover
 ##### Challenge
 Now, add the approprite positioning shifts to the `hover` state of our navigation items.
+
+
+### Level 8 - Pseudo Sitzmark
+Sometimes in the style to make, we'll need to attach design properties into some elements the won't in the document tree. On those cases after CSS 2.1, CSS introduces the concepts of pseudo-elements and pseudo-classes to permit formatting based on information that lies outside the document tree.
+
+#### Pseudo Classes
+Classify elements on characteristics other than their name, attributes or content; in principle characteristics that cannot be deduced from the document tree. Pseudo-classes may be dynamic, in the sense that an element may acquire or lose a pseudo-class while a user interacts with the document.
+
+In old days, we could finish with a manual set class into the last element, so we did not need to print the bottom border of the last element. Pseudo-class solve it for us... check this up.
+
+##### OLD DAYS
+```html
+    <ul>
+     <li><a href="#search">Search</a></li>
+     <li><a href="#image">Image</a></li>
+     <li class="last"><a href="#maps">Maps</a></li>
+    </ul>
+```
+```css
+    li {
+     border-bottom: 1px solid #aaa;
+    }
+    .last {
+     border-bottom: 0;
+    }
+```
+
+##### NEW DAYS
+```html
+    <ul>
+     <li><a href="#search">Search</a></li>
+     <li><a href="#image">Image</a></li>
+     <li><a href="#maps">Maps</a></li>
+    </ul>
+```
+```css
+    li {
+     border-bottom: 1px solid #aaa;
+    }
+    li:last-child {
+     border-bottom: 0;
+    }
+```
+
+##### Challenge
+Using a pseudo class, target the first instance of `paragraph` and change its text to be `italic` and colored `#999`.
+
+#### Pseudo Classes II
+##### Challenge
+Using a pseudo class, add a `background-color` of `#c5c9cf` to odd list items inside `.hours`.
+
+#### Pseudo Classes III
+##### Challenge
+Instead of odd items, let's instead target every `4th` list item, starting with the `first`.
+
+#### Pseudo Elements
+Create abstractions about the document tree beyond those specified by the document language. For instance, document languages do not offer mechanisms to access the first letter or first line of an element's content. CSS pseudo-elements allow style sheet designers to refer to this otherwise inaccessible information. Pseudo-elements may also provide style sheet designers a way to assign style to content that does not exist in the source document (e.g., the :before and :after pseudo-elements give access to generated content). Ex.:
+
+##### OLD DAYS
+```html
+    <article>
+     <p>Coffee? Hah! Our cocoa is far better.</p>
+     <p>Visit from 4-5 for cocoa happy hour!&#x2744;</p>
+    </article>
+```
+
+##### NEW DAYS
+```html
+    <article>
+     <p>Coffee? Hah! Our cocoa is far better.</p>
+     <p>Visit from 4-5 for cocoa happy hour!</p>
+    </article>
+```
+```css
+    article p:last-child:after {
+     content: '\2744';
+    }
+```
+
+##### Challenge
+Use a pseudo class to target the `first` paragraph, and a pseudo element to give the `first line` a `font weight` of `bold`.
+
+#### Pseudo Elements II
+##### Challenge
+Create a `before` pseudo element for `paragraphs`, with `->` as content and a `right margin` of `5px`.
+
+#### Positioned Elements II
+##### Challenge
+Absolutely position the `:before` image `-3px` from the `top` and `left`, and the `:after` image `-3px` from the `bottom` and `right` of our `.store` button.
+
+#### Positioned Elements
+##### Challenge
+For the `hover` and `focus` states of the `.store` button, change both `positioning` values of each pseudo element to `-5px`.

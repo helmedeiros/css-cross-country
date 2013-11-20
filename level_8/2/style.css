@@ -1,0 +1,22 @@
+body {
+    color: #706c6e;
+    font-family: Tahoma, Arial, sans-serif;
+}
+article h1 {
+    text-indent: left;
+}
+h1 {
+    color: #7ab2c1;
+    font: bold 22px/28px Tahoma, Arial, sans-serif;
+    margin: 0 0 10px;
+    text-align: center;
+}
+ol, ul {
+    list-style: none;
+}
+.hours li {
+    padding: 5px 10px;
+}
+.hours li:nth-child(odd){
+	background-color: #c5c9cf;
+};
