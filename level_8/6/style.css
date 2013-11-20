@@ -43,4 +43,6 @@ a.store {
     background: url(store-after.png);
     height: 20px;
     width: 41px;
+    bottom: -3px;
+    right: -3px;
 }
