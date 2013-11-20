@@ -17,6 +17,6 @@ ol, ul {
 .hours li {
     padding: 5px 10px;
 }
-.hours li:nth-child(odd){
+.hours li:nth-child(4n+1){
 	background-color: #c5c9cf;
 };
