@@ -539,3 +539,7 @@ Use a pseudo class to target the `first` paragraph, and a pseudo element to give
 #### Pseudo Elements II
 ##### Challenge
 Create a `before` pseudo element for `paragraphs`, with `->` as content and a `right margin` of `5px`.
+
+#### Positioned Elements II
+##### Challenge
+Absolutely position the `:before` image `-3px` from the `top` and `left`, and the `:after` image `-3px` from the `bottom` and `right` of our `.store` button.
