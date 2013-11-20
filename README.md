@@ -543,3 +543,7 @@ Create a `before` pseudo element for `paragraphs`, with `->` as content and a `r
 #### Positioned Elements II
 ##### Challenge
 Absolutely position the `:before` image `-3px` from the `top` and `left`, and the `:after` image `-3px` from the `bottom` and `right` of our `.store` button.
+
+#### Positioned Elements
+##### Challenge
+For the `hover` and `focus` states of the `.store` button, change both `positioning` values of each pseudo element to `-5px`.
