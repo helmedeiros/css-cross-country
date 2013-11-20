@@ -500,3 +500,7 @@ In old days, we could finish with a manual set class into the last element, so w
 
 ##### Challenge
 Using a pseudo class, target the first instance of `paragraph` and change its text to be `italic` and colored `#999`.
+
+#### Pseudo Classes II
+##### Challenge
+Using a pseudo class, add a `background-color` of `#c5c9cf` to odd list items inside `.hours`.
