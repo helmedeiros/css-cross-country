@@ -535,3 +535,7 @@ Create abstractions about the document tree beyond those specified by the docume
 
 ##### Challenge
 Use a pseudo class to target the `first` paragraph, and a pseudo element to give the `first line` a `font weight` of `bold`.
+
+#### Pseudo Elements II
+##### Challenge
+Create a `before` pseudo element for `paragraphs`, with `->` as content and a `right margin` of `5px`.
